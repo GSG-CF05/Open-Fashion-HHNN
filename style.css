@@ -16,3 +16,28 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.Case img{
+    width: 100%;
+}
+.New_Arrival{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.New_Arrival h1{
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
