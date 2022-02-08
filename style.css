@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #E6E9EE;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
