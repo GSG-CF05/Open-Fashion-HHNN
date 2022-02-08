@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.header-1 {
+    display: block;
+    background-color:white;
+    height: 60px;
+    margin: 10px;
+}
+
+.logo-header {
+    font-size: 20px;
+}
+
+.logo-photo {
+    padding-top: 15px;
+    position: absolute;
+    left: 43%;
+    top: 1.00%;
+    bottom: 15%;
+    opacity: 0.8;
+}
+
+.search-header {
+    padding-top: 15px;
+    position: absolute;
+    left: 76.8%;
+    right: 16.8%;
+    top: 1.00%;
+    bottom: 90.08%;
+}
+
+.list-header {
+    padding-top: 15px;
+    position: absolute;
+    left: 4.27%;
+    right: 89.33%;
+    top: 1.00%;
+    bottom: 90.08%;
+}
+
+.cart-header {
+    padding-top: 15px;
+    position: absolute;
+    left: 87.47%;
+    right: 6.13%;
+    top: 1.00%;
+    bottom: 90.08%;
+}
+
+.fa {
+    font-size: 24px !important;
+    color: rgb(88, 85, 85);
+    padding-top: 10px;
+    opacity: 0.8;
+}
+.product-details{
+  display: block;
+  text-align: center;
+  margin-top: 53px;
+}
+.details{
+  width: 200px;
+  height: 120px;
+  display: block;
+  margin-top:50px;
+  margin-left: 15px;
+}
+.texts{
+    font: inherit;
+    letter-spacing: 3px;
+    color: black ;
+    font-size: 20px;
+    opacity: .8;
+}
+.texts1{
+    font: inherit;
+    color: gray;
+    margin-top: 7px;
+    font-size: 13px;
+}
+.dollar{
+    font: inherit;
+    color:rgba(221, 133, 96, 1);
+    margin-top: 5px;
+    font-size: 20px;
+}
+.dead{
+    display: inline-block;
+    display: flex;
+    margin-top: 8px;
+    font-size: 20px;
+}
+.dead p{
+    margin-right: 5px;
+    font-family: inherit;
+    font-weight: 1px;
+    opacity: .7;
+}
+.p2{
+    margin-left: 35px;
+}
+button{
+    font-size: 14px;
+    display: inline-block;
+    width: 6%;
+    height:0;
+    padding-bottom: 6%;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-top: 7px;
+   
+}
+.button1{
+   background-color: black;
+}
+.button2{
+    background-color:rgba(221, 133, 96, 1) ;
+}
+.button3{
+    background-color: rgba(225, 224, 219, 1);
+}
+.button4{
+    color: white;
+    background-color: black;
+    margin-top: 7px;
+    font-size: 10px;
+ }
+ .button5{
+    color: black;
+     background-color:white ;
+     margin-top: 7px;
+     font-size: 10px;
+    }
+ .button6{
+      color: black;
+     background-color: white;
+     margin-top: 7px;
+     font-size: 10px;
+   }
+   .foot{
+     background-color: black;
+     color: white; 
+     display: flex;
+     height: 65px;
+     margin-top: 30px;
+     justify-content: space-between;
+   }
+   #plus{
+       margin-left: 15px;
+       margin-top: 20px;
+   }
+   .foot p{
+       margin-top: 20px;
+       margin-right: 50px;
+   }
+   #heart{
+       margin-right: 15px;
+       margin-top: 20px;
+   }
+   @media only screen and (min-width: 769px) {
+    .Case img{
+        width: 100%;
+        height: 50rem;
+        object-fit: contain;
+    }
+    .cards{
+        flex-direction: row;
+
+    }
+    .single_card{
+        width: 25%;
+    }
+    .product-details{
+        display: block;
+        text-align: center;
+        margin-top: 53px;
+      }
+      .details{
+        width: 200px;
+        height: 120px;
+        display: block;
+       margin-left:39%;
+      }
+      .texts{
+          font: inherit;
+          letter-spacing: 3px;
+          color: black ;
+          font-size: 20px;
+          opacity: .8;
+      }
+      .texts1{
+          font: inherit;
+          color: gray;
+          margin-top: 7px;
+          font-size: 13px;
+      }
+      .dollar{
+          font: inherit;
+          color:rgba(221, 133, 96, 1);
+          margin-top: 5px;
+          font-size: 20px;
+      }
+      .dead{
+          display: inline-block;
+          display: flex;
+          margin-top: 8px;
+          font-size: 20px;
+      }
+      .dead p{
+          margin-right: 5px;
+          font-family: inherit;
+          font-weight: 1px;
+          opacity: .7;
+      }
+      .p2{
+          margin-left: 35px;
+      }
+      button{
+          font-size: 14px;
+          display: inline-block;
+          width: 6%;
+          height:0;
+          padding-bottom: 6%;
+          border-radius: 50%;
+          margin-left: 3px;
+          margin-top: 7px;
+         
+      }
+      .button1{
+         background-color: black;
+      }
+      .button2{
+          background-color:rgba(221, 133, 96, 1) ;
+      }
+      .button3{
+          background-color: rgba(225, 224, 219, 1);
+      }
+      .button4{
+          color: white;
+          background-color: black;
+          margin-top: 7px;
+          font-size: 10px;
+       }
+       .button5{
+          color: black;
+           background-color:white ;
+           margin-top: 7px;
+           font-size: 10px;
+          }
+       .button6{
+            color: black;
+           background-color: white;
+           margin-top: 7px;
+           font-size: 10px;
+         }
+         .foot{
+           background-color: black;
+           color: white; 
+           display: flex;
+           height: 65px;
+           margin-top: 30px;
+           justify-content: space-between;
+         }
+         #plus{
+             margin-left: 15px;
+             margin-top: 20px;
+         }
+         .foot p{
+             margin-top: 20px;
+             margin-right: 50px;
+         }
+         #heart{
+             margin-right: 15px;
+             margin-top: 20px;
+         }
+}
