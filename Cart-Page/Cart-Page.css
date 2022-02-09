@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+      min-height: 100vh;
+      display: flex;
+  
+  }
+  
+  section{
+       height: 844px;
+       width: 390px; 
+      
+  }
+  
+  
+  .close {
+      position: relative;
+      top: 22px;
+      margin-left: 4%;
+      width: 32px;
+      opacity: 0.3;
+  
+    }
+    .close:hover {
+      opacity: 1;
+    }
+    .close:before, .close:after {
+      position: absolute;
+      left: 15px;
+      content: ' ';
+      height: 22px;
+      width: 2px;
+      background-color: #333;
+    }
+    .close:before {
+      transform: rotate(45deg);
+    }
+    .close:after {
+      transform: rotate(-45deg);
+    }
+    .cart{
+      text-transform: uppercase;
+      letter-spacing: 0.5em;
+      font-family: 'Tenor Sans';
+      margin-left: 5%;
+      margin-top: 15%;
+      font-size: 18px;
+      
+    }
+  
+    .product_one,
+    .product_two{
+      background-image: url(../assets/Rectangle344.png);
+      background-repeat: no-repeat;
+      margin-left: 5%; 
+      height: 140px;
+      width: 358px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+    }
+  
+    .product_two{
+      margin-left: 100%;
+    }
+    
+    .product_one span,
+    .product_two span{
+      color: black;
+      padding-right: 140px;
+      padding-top: 10px;
+      text-transform: uppercase;
+      font-family: 'Tenor Sans', sans-serif;
+  
+    }
+  
+  
+  .detailes_one,
+  .detailes_two{
+  width: 201px;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+  left: 39.32%;
+  right: 4.54%;
+  top: 18.76%;
+  bottom: 21.75%;
+  margin-left: 60%;
+  }
+  
+    .detailes_one p,.detailes_two p{
+      color: #555555;
+      font-size: 12px;
+      font-weight: 400;
+    
+     
+    }
+  
+  
+  .add_and_remove{
+    display: flex;
+    
+  }
+  
+    
+   
+  
+  
+    .remove,.add{
+      border-radius: 50%;
+      height: 50%;
+      width: 10%;
+      text-align: center;
+      flex-direction: row;
+      margin-top: 3%;
+      box-shadow: 1px 0.5px 1px 0.5px #555555;
+      cursor: pointer;
+    }
+  
+    .add_and_remove p{
+      color: #333;
+      font-size: medium;
+      margin-top: 3%;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+  
+  .Price{
+    color:#DD8560;
+    font-family: 'Tenor Sans';
+    font-size: 15px;
+  }
+  
+  
+  .product_two{
+    background-image: url(../assets/Frame18.png);
+    background-repeat: no-repeat;
+  }
+  
+  .detailes_two span {
+    width: max-content;
+  }
+  .more_detailes{
+    width: 193px;
+    height: 18px;
+  }
+  
+  .line{
+    width: 80%;
+    padding: 0px;
+    /*80%*/
+  
+  }
+  
+   .s{
+  justify-content: flex-end;
+    display: flexbox;
+  } 
+  .Sub_Total{
+    position: absolute;
+    margin-left: 2%;
+    
+  }
+  .Total{
+    display: flex;
+   justify-content: flex-end;
+   margin-top: 7%;
+   margin-right: 3%;
+   
+  }
+  
+  .description{
+    margin-top: 23px;
+    margin-left: 6%;
+    font-family: 'Tenor Sans';
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .BUY_NOW{
+    display: flex;
+    border: 1px black solid;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+    font-family:'Tenor Sans';
+    background-image: url(../assets/shopping-bag.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 33% center;
+    cursor: pointer;
+  }
+  
+  .products{
+    display: flex;
+    height: fit-content;
+  }
+  
+  /*Small Screen*/
+  @media only screen and (min-width: 200px) and (max-width: 767px)  {
+  
+    .products{
+      flex-direction: column;
+    }
+   .product_two{
+    margin-left: 5%; 
+  }
+  .detailes_two{
+     margin-left: 35%; 
+  }
+  .detailes_one{
+    margin-left: 35%;
+  } 
+  }  
+  
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 1536px)  {
+    section{
+      height: 844px;
+      width: 990px; 
+  }
+  .line{
+    width: 143%;
+    margin-left: 4%;
+    background-color: black;
+    margin-top: 5%;
+  }
+    .products{
+      flex-direction: row;
+    }
+      .detailes_one,
+      .detailes_two{
+        margin-left: 55%;
+        font-weight: 700;
+      }
+      .product_one{
+        margin-left: 4%;
+      }
+     
+      .product_two{
+        margin-left: 45%;
+      }
+      
+      .detailes_one p,.detailes_two p{
+        font-size: 13px;
+        font-weight: bold;
+      
+       
+      }
+  
+      .BUY_NOW{
+        width: 40%;
+        margin-top: 5%;
+        margin-left: 3%;
+      }
+      .cart{
+  margin-top: 8%;
+  font-size: x-large;
+  font-weight: bold;
+      }
+      .Sub_Total{
+        font-size: x-large;
+       font-weight: bold;
+       
+      }
+      .description{
+        font-size: 22px;
+        font-weight: 400;
+        margin-left: 3%;
+        margin-top: 3%;
+  }
+  .Total{
+    margin-top: 3%;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .add_and_remove p{
+    font-size: medium ;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .Price{
+    font-size: larger;
+  }
+  
+  }
+  
